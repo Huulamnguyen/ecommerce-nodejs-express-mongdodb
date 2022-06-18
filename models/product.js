@@ -2,7 +2,6 @@ const { MongoParseError } = require('mongodb');
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-
 // todo: design productSchema
 const productSchema = new Schema({
     title: {
@@ -20,6 +19,11 @@ const productSchema = new Schema({
     imageUrl: {
         type: String,
         required: true
+    },
+    userId: {
+        type: Schema.Types.ObjectId,
+        ref: "User",
+        required: true,
     }
 });
 
