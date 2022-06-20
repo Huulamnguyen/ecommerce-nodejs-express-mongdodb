@@ -1,18 +1,13 @@
 .orders {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 60%;
 }
 
 .orders__item h1 {
     margin: 0;
     font-size: 1rem;
-}
-
-.orders__item {
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-  padding: 1rem;
-  margin-bottom: 1rem;
 }
 
 .orders__products {
@@ -24,6 +19,6 @@
 .orders__products-item {
     margin: 0.5rem 0;
     padding: 0.5rem;
-    border: 1px solid #00695c;
-    color: #00695c;
+    border: 1px solid #1f55c9;
+    color: #1f55c9;
 }

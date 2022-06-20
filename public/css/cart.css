@@ -2,9 +2,9 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  margin: auto;
+  margin: 0 auto;
   width: 40rem;
-  max-width: 90%;
+  max-width: 60%;
 }
 
 .cart__item {
